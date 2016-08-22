@@ -1,0 +1,219 @@
+.form-style-6{
+    font: 95% Arial, Helvetica, sans-serif;
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 16px;
+    background: #F7F7F7;
+}
+.form-style-6 h1{
+/*     background: #43D1AF; */
+    background-image: url("../CSS/textimgbg.jpeg");
+    padding: 20px 0;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin: -16px -16px 16px -16px;
+}
+.form-style-6 input[type="text"],
+.form-style-6 input[type="date"],
+.form-style-6 input[type="datetime"],
+.form-style-6 input[type="email"],
+.form-style-6 input[type="number"],
+.form-style-6 input[type="search"],
+.form-style-6 input[type="time"],
+.form-style-6 input[type="url"],
+.form-style-6 textarea,
+.form-style-6 select 
+{
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 4%;
+    border: 1px solid #ccc;
+    padding: 3%;
+    color: #555;
+    font: 95% Arial, Helvetica, sans-serif;
+}
+.form-style-6 input[type="text"]:focus,
+.form-style-6 input[type="date"]:focus,
+.form-style-6 input[type="datetime"]:focus,
+.form-style-6 input[type="email"]:focus,
+.form-style-6 input[type="number"]:focus,
+.form-style-6 input[type="search"]:focus,
+.form-style-6 input[type="time"]:focus,
+.form-style-6 input[type="url"]:focus,
+.form-style-6 textarea:focus,
+.form-style-6 select:focus
+{
+    box-shadow: 0 0 5px #43D1AF;
+    padding: 3%;
+    border: 1px solid #43D1AF;
+}
+
+.form-style-6 input[type="submit"],
+.form-style-6 input[type="button"]{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    padding: 3%;
+    background-image: url("../CSS/textimgbg.jpeg");
+    /* background: #43D1AF; */
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;    
+    color: #fff;
+}
+.form-style-6 input[type="submit"]:hover,
+.form-style-6 input[type="button"]:hover{
+	/* background: #2EBC99; */
+    background-image: url("../CSS/textimgbg.jpeg");
+}
+
+.portfolio-embed{
+	color: black;
+}
+body ul{
+	font-size: 200%;
+	
+	
+	
+}
+body ul li{
+	display: inline-block;
+	color: white;
+}
+
+
+body {
+  width:100%;
+  height:100%;
+  position:fixed;
+  background-color:#34495e;
+}
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+:before,
+:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    background-color: #fff !important;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.title {
+    font-size: 2em;
+    position: relative;
+    margin: 0 auto 1em;
+    padding: 1em 1em .25em 1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+.title:after {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 240px;
+    height: 4px;
+    margin-left: -120px;
+    content: '';
+    background-color: #fff;
+}
+
+/* Clip text element */
+.clip-text {
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 1;
+    position: relative;
+    display: inline-block;
+    margin: .25em;
+    margin-top: 4em;
+    padding: .5em .75em;
+    text-align: center;
+    /* Color fallback */
+    color: #fff;
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+}
+
+.clip-text:before,
+.clip-text:after {
+    position: absolute;
+    content: '';
+}
+
+/* Background */
+.clip-text:before {
+    z-index: -2;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: inherit;
+}
+
+/* Text Background (black zone) */
+.clip-text:after {
+    position: absolute;
+    z-index: -1;
+    top: .125em;
+    right: .125em;
+    bottom: .125em;
+    left: .125em;
+    background-color: #fff;
+}
+
+/* Change the background position to display letter when the black zone isn't here */
+.clip-text--no-textzone:before {
+    background-position: -.65em 0;
+}
+
+.clip-text--no-textzone:after {
+    content: none;
+}
+
+/* Use Background-size cover for photo background and no-repeat background */
+.clip-text--cover,
+.clip-text--cover:before {
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+            background-size: cover;
+}
+
+.clip-text_one {
+    background-image: url("../CSS/textimgbg.jpeg");
+}
+.bio{
+	color: black;
+}
+

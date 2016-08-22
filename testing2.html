@@ -1,0 +1,133 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>gumuc.io.init();</title>
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <style>
+        #btn-close-modal {
+            width: 100%;
+            text-align: center;
+            cursor: pointer;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+</br>
+<center><img src="headerlogo.png"></center>
+
+
+    <!--Call your modal-->
+    <div class="wrapper">
+    <ul>
+        <li><a id="about" href="#animatedModal"><div class="clip-text clip-text_one">About</div></a></li>
+        <li><a id="resume" href="#animatedModalresume"><div class="clip-text clip-text_one">Resume</div></a></li>
+        <li><a id="portfolio" href="#animatedModalportfolio"><div class="clip-text clip-text_one">Portfolio</div></a></li>
+        <li><a id="contact" href="#animatedModalcontact"><div class="clip-text clip-text_one">Contact</div></a></li>
+    </ul></div>
+
+
+    <!--About-->
+    <div id="animatedModal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+        <div id="btn-close-modal" class="close-animatedModal">
+			</br>	
+            <img src="./CSS/Closepng.png">
+        </div>
+
+        <div class="modal-content">
+            <!--Your modal content goes here-->
+            </br>
+            <div class="div-content">
+            <div class="photo"
+            <img src="./CSS/PROFILE.JPG" width="40%" height="auto">
+            </div>
+            <div class="bio">
+            My name is Brenton Gumucio. 
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Resume -->
+    <div id="animatedModalresume">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+        <div id="btn-close-modal" class="close-animatedModalresume">
+            </br>
+            <img src="./CSS/Closepng.png">
+        </div>
+
+        <div class="modal-content">
+            <!--Your modal content goes here-->
+            </br>
+           <div class = "resume-wrap"> 
+          <center><img src="./CSS/Brenton s Résumé-page-001.jpg" width="750px" height="1000px"></center>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Portfolio -->
+    <div id="animatedModalportfolio">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+        <div id="btn-close-modal" class="close-animatedModalportfolio">
+            </br>
+            <img src="./CSS/Closepng.png">
+        </div>
+
+        <div class="modal-content">
+            <!--Your modal content goes here-->
+            </br>
+            <div class="portfolio-embed">
+            <p>portfolio</p>
+        </div></div>
+    </div>
+
+
+    <!-- Contact -->
+    <div id="animatedModalcontact">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+        <div id="btn-close-modal" class="close-animatedModalcontact">
+            </br>
+            <img src="./CSS/Closepng.png">
+        </div>
+
+        <div class="modal-content">
+            <!--Your modal content goes here-->     
+				</br>
+				<div class="portfolio-embed">
+				<div class="form-style-6">
+				<h1>Contact Me</h1>
+
+				<form action="MAILTO:someone@example.com" method="post" enctype="text/plain">
+				<input type="text" name="field1" placeholder="Your Name" />
+				<input type="email" name="field2" placeholder="Email Address" />
+				<textarea name="field3" placeholder="Type your Message"></textarea>
+				<input type="submit" value="Send" />
+				</form>
+				</div>
+				</div>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/animatedModal.js"></script>
+    <script>
+        //demo 01
+        $("#about").animatedModal();
+        $("#resume").animatedModalresume();
+        $("#portfolio").animatedModalportfolio();
+        $("#contact").animatedModalcontact();
+    </script>
+
+</body>
+
+</html>
